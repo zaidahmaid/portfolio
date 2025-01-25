@@ -459,6 +459,19 @@ footer > h2 {
   color: var(--primary_color);
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--back_color);
+  /* border-radius: 1em; */
+  /* margin: block 1em; */
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary_color);
+  border-radius: 1em;
+}
+
 @media (max-width: 768px) {
   nav {
     display: none;
